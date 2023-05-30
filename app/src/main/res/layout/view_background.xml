@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/child2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECC4C1"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="45dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:src="@drawable/icbc" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/child1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8E8C9"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="45dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:src="@drawable/abc" />
+    </FrameLayout>
+</merge>
