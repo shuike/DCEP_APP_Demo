@@ -2,7 +2,7 @@
 
 ## 效果(gif图较大，加载可能较慢)
 
-<img src="https://skbiji.oss-cn-qingdao.aliyuncs.com/picgo/202305301230862.gif" alt="offset_sc" style="zoom: 25%;" />
+<img src="imgs/gif1.gif" alt="offset_sc" style="zoom: 25%;" />
 
 ## 思路
 
