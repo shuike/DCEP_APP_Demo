@@ -24,10 +24,10 @@ class BackgroundView @JvmOverloads constructor(
 
     // Child 1
     private var leftOffset1: Int = 0 // 左边的偏移量1
-    private var leftOffset2: Int = 0 // 左边的偏移量2
+    private var rightOffset1: Int = 0 // 右边的偏移量1
 
     // Child 2
-    private var rightOffset1: Int = 0 // 右边的偏移量1
+    private var leftOffset2: Int = 0 // 左边的偏移量2
     private var rightOffset2: Int = 0 // 右边的偏移量2
 
     private var isEventNum = false
