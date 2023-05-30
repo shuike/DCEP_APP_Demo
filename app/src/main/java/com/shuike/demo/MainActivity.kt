@@ -41,11 +41,7 @@ class MainActivity : AppCompatActivity() {
 
             val recyclerView = getChildAt(0) as RecyclerView
             val padding = 50.dp
-            if (orientation == ViewPager2.ORIENTATION_VERTICAL) {
-                recyclerView.setPadding(0, padding, 0, padding)
-            } else {
-                recyclerView.setPadding(padding, 0, padding, 0)
-            }
+            recyclerView.setPadding(padding, 0, padding, 0)
             recyclerView.clipToPadding = false
             recyclerView.overScrollMode = RecyclerView.OVER_SCROLL_NEVER
         }
